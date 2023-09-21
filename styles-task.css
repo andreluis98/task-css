@@ -1,0 +1,114 @@
+/* Importe uma fonte do Google Fonts (por exemplo, "Nunito") */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+  background: #94c5c3;
+}
+
+header {
+  background-color: #dbefee;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 42px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+header:hover {
+  background-color: #dfdfdf;
+}
+
+section {
+  background-color: #cce7e6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #7d8f99;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 18px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: "Nunito", sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+select:hover {
+  border-color: #007bff;
+}
+
+button[type="submit"] {
+  background-color: #6fcfcf;
+  color: #e3f5eb;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #8bd2df;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+output {
+  display: block;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+footer {
+  background-color: #cce7e6;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+}
